@@ -1,0 +1,203 @@
+/* Top heading and paragraph part */
+.toppart {
+    width: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+}
+.hedding {
+    font-weight: 200;
+    font-size: 45px;
+    margin-top: 10px;
+}
+.para1 {
+    margin-top: 10px;
+}
+.topin {
+    width: 50%;
+    text-align: center;
+}
+
+/* Filter bar for hide and show side bar and displaying number of products */
+.filterbar {
+    width: 80%;
+    border: 1px rgb(225, 206, 206) solid;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin: auto;
+    height: 40px;
+    padding: 10px;
+}
+.filterno {
+    font-weight: 600;
+}
+.filter {
+    margin-left: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* Loading div on page */
+.loadingmain {
+    width: 100%;
+    text-align: center;
+}
+.loading {
+    font-size: 45px;
+    font-weight: 600;
+}
+
+/* Toggle box when we hover on RECOMMENDED */
+.toggle {
+    width: 15%;
+    background-color: white;
+    border: 1px solid rgb(194, 158, 158);
+    position: relative;
+    margin-left: auto;
+}
+.toggle1 {
+    font-weight: 600;
+    border-bottom: 1px solid rgb(189, 142, 142);
+}
+.toggle2,
+.toggle3,
+.toggle4,
+.toggle5 {
+    border-bottom: 1px solid rgb(193, 157, 157);
+    padding: 4px;
+    cursor: pointer;
+}
+
+/* Hide the div */
+.hidden {
+    display: none;
+}
+
+/* Sidebar in Ideal option */
+.idealbox {
+   border: 1px rgb(225, 206, 206) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Sidebar in Occasion option */
+.ocassionbox {
+    border: 1px rgb(225, 206, 206) solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Sidebar heading */
+.hedingideal {
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* Sidebar container */
+.box {
+    display: flex;
+}
+.side {
+    padding: 4px;
+    width: 15%;
+}
+.costomize {
+    border-bottom: 1px solid rgb(235, 174, 174);
+}
+
+/* Flex sidebar and products */
+.container {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 14px;
+    margin-bottom: 14px;
+}
+
+/* RECOMMENDED option */
+.deffilter {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+/* Products container */
+.main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: auto;
+}
+
+/* Cards */
+.card {
+    height: 300px; /* Increased height */
+    background-color: rgb(253, 250, 250);
+    color: rgb(19, 2, 2);
+    width: 250px;
+    border-radius: 15px;
+    margin-top: 10px;
+    box-shadow: rgba(239, 232, 232, 0.35) 0px 5px 15px;
+    overflow: hidden;
+}
+.textdisco {
+    margin-top: 6px;
+}
+.textdiscoin {
+    background-color: rgba(235, 217, 217, 0.782);
+    border-radius: 5px;
+    padding: 3px;
+}
+.texttitle {
+    font-weight: 600;
+    text-align: center;
+    border-bottom: 1px rgba(229, 221, 221, 0.687) solid;
+}
+.textprice,
+.rating {
+    margin-top: 4px;
+}
+.imgin {
+    height: 180px; /* Increased height */
+    width: 250px;
+    background-color: rgb(228, 237, 237);
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    transition: transform .2s;
+}
+.img:hover {
+    transform: scale(1.2);
+}
+
+/* Media queries for responsive design */
+@media screen and (max-width: 780px) {
+    .container {
+        display: block;
+    }
+    .side {
+        width: 100%;
+    }
+    .hedding {
+        font-size: 30px;
+    }
+    .toggle {
+        width: 45%;
+    }
+    .main {
+        justify-content: center;
+    }
+    .card {
+        width: 80%;
+        margin: 10px auto;
+    }
+}

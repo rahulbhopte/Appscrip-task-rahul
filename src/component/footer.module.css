@@ -1,0 +1,97 @@
+.footer{
+    background-color: black;
+    color: white;
+    padding: 14px;
+}
+.font1{
+    font-weight: 600;
+}
+.upbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content:space-around;
+}
+
+.mt1{
+    margin-top: 30px;
+}
+.inputbox{
+    display: flex;
+    margin-top: 30px;
+    width: 150%;
+    
+    
+}
+
+.inputtag{
+    border-bottom: 1px solid black;
+  outline: none;
+  background-color: gray;
+  color: black;
+  height: 30px;
+  
+  width: 100%;
+}
+.inputbtn{
+    margin-left: 10px;
+}
+.usabox{
+    display: flex;
+}
+.currency{
+    margin-top: 20px;
+    font-weight: 600;
+}
+.usabox img{
+    border-radius: 100px;
+    margin-top: 15px;
+}
+
+.mt{
+    margin-top: 20px;
+}
+
+.horizontal{
+    height: 2px;
+    background-color: rgb(146, 142, 142);
+    width: 98%;
+    margin: 10px;
+}
+.lowerbox{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    justify-content:space-around;
+}
+.instabox{
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-around;
+    width: 100px;
+}
+.instabox img{
+    border-radius: 100px;
+}
+.paybox{
+    display: flex;
+    justify-content: space-around;
+    width: 120%;
+    margin-top: 30px;
+}
+/* media screen or responsive */
+@media screen and (max-width: 780px){
+    .upbox{
+        display: block;
+    }
+    .lowerbox{
+        display: block;
+    }
+    .inputbox{
+        width: 100%;
+    }
+    .paybox{
+        width: 100%;
+        display: block;
+    }
+}
